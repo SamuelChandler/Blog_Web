@@ -13,10 +13,13 @@ app.use(fileupload());
 
 // send home html and use port 3000(used by default by http servers)
 app.get('/', (req, res) => {
-    res.sendFile(path.join(initial_path, "home.html"));
+    res.sendFile(path.join(initial_path, "html/Home.html"));
 })
 
 app.listen("3000", () => {
     console.log('listening......');
 })
 
+app.get('/editor', (req, res) => {
+    res.sendFile(path.join(initial_path, "html/editor.html"));
+})
