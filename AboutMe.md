@@ -9,3 +9,7 @@ By Samuel Chandler
 ## Inspiration
    - https://dev.to/themodernweb/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di
 
+## Tools used 
+- npm 
+- firebase 
+- 
